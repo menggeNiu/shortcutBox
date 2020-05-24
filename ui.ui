@@ -79,7 +79,7 @@ line-height:40px;</string>
         <string notr="true">background:#fff;</string>
        </property>
        <property name="text">
-        <string>user guide</string>
+        <string>home</string>
        </property>
       </widget>
       <widget class="QPushButton" name="pushButton_3">
@@ -95,7 +95,7 @@ line-height:40px;</string>
         <string notr="true">background: #C8DFF9;</string>
        </property>
        <property name="text">
-        <string>快速启动</string>
+        <string>plugin1</string>
        </property>
       </widget>
       <widget class="QPushButton" name="pushButton_4">
@@ -111,7 +111,7 @@ line-height:40px;</string>
         <string notr="true">background:#fff;</string>
        </property>
        <property name="text">
-        <string>plugin</string>
+        <string>plugin2</string>
        </property>
       </widget>
       <widget class="QPushButton" name="pushButton_5">
@@ -127,7 +127,7 @@ line-height:40px;</string>
         <string notr="true">background:#fff;</string>
        </property>
        <property name="text">
-        <string>xxx</string>
+        <string>plugin3</string>
        </property>
       </widget>
       <widget class="QPushButton" name="pushButton_6">
@@ -143,7 +143,7 @@ line-height:40px;</string>
         <string notr="true">background:#fff;</string>
        </property>
        <property name="text">
-        <string>zzz</string>
+        <string>plugin4</string>
        </property>
       </widget>
       <widget class="QPushButton" name="pushButton_7">
@@ -159,7 +159,43 @@ line-height:40px;</string>
         <string notr="true">background:#fff;</string>
        </property>
        <property name="text">
-        <string>www</string>
+        <string>plugin5</string>
+       </property>
+      </widget>
+      <widget class="QWidget" name="widget_6" native="true">
+       <property name="geometry">
+        <rect>
+         <x>989</x>
+         <y>49</y>
+         <width>21</width>
+         <height>21</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QWidget" name="widget_7" native="true">
+       <property name="geometry">
+        <rect>
+         <x>980</x>
+         <y>0</y>
+         <width>41</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/home/image/plugins.png);</string>
+       </property>
+      </widget>
+      <widget class="QWidget" name="widget_10" native="true">
+       <property name="geometry">
+        <rect>
+         <x>1030</x>
+         <y>0</y>
+         <width>41</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/home/image/favorite.png);</string>
        </property>
       </widget>
      </widget>
@@ -284,16 +320,6 @@ p, li { white-space: pre-wrap; }
 background-repeat:no-repeat;</string>
        </property>
       </widget>
-     </widget>
-     <widget class="QWidget" name="widget_7" native="true">
-      <property name="geometry">
-       <rect>
-        <x>570</x>
-        <y>190</y>
-        <width>120</width>
-        <height>80</height>
-       </rect>
-      </property>
      </widget>
      <widget class="QTextEdit" name="textEdit_2">
       <property name="geometry">
